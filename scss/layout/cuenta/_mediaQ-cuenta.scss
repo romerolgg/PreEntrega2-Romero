@@ -1,0 +1,17 @@
+@media screen and (max-width:540px) {
+    .box-register {
+        align-self: center;
+        width: 300px;
+        div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            input{
+                width: 250px;
+            }
+        }
+        .boton-input{
+            width: 250px;
+        }
+    }
+}

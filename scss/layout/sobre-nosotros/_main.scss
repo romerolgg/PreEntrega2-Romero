@@ -1,0 +1,43 @@
+/* SECCION NOSOTROS | IMAGEN DE FONDO  */
+
+
+.container-footer{
+    display: flex;
+    margin-top: 77px;
+}
+
+.box-nosotros {
+    text-align: center;
+    margin-left: 25px;
+h1{
+    color: #FFC60B;
+}
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    transform: translateY(-30px);
+}
+}
+
+.container-nosotros{
+    display: flex;
+}
+
+
+.box-nosotros2{
+    text-align: center;
+    padding: 20px;
+h1 {
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+p{
+    font-family: $tipografia-secundaria;
+    font-weight: 450;
+}
+img{
+    width: 150px;
+    transform: translateY(15px);
+}
+}

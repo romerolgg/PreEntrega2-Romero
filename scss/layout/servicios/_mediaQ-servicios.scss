@@ -1,0 +1,62 @@
+/* MEDIA QUERY SERVICIOS */
+
+@media screen and (max-width:1024px) {
+    .cards-servicios img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .box-servicios {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 312px;
+        gap: 30px;
+        justify-content: space-;
+        
+        grid-template-areas: 
+
+        "card-s1 card-s2"
+        "card-s3 card-s3"
+        ;
+    }
+
+    .card-s1{
+        grid-area: card-s1;
+    }
+
+    .card-s2{
+        grid-area: card-s2;
+    }
+
+    .card-s3{
+        grid-area: card-s3;
+        width: 200px;
+    }
+
+    .card-s2 img{
+        width: 198px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .box-servicios {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px;
+        grid-template-rows: 312px;
+        gap: 30px;
+        justify-content: space-evenly;
+        
+        grid-template-areas: 
+
+        "card-s1"
+        "card-s2" 
+        "card-s3"
+        "card-s4"
+
+        ;
+    }
+}

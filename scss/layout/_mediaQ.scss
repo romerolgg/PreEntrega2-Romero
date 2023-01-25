@@ -1,0 +1,142 @@
+/* MEDIA QUERY TIENDA*/
+
+@media screen and (max-width:1024px) {
+    .section-cards{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 312px;
+        gap: 30px;
+        justify-content: space-evenly;
+        grid-template-areas: 
+
+        "card1 card2 card3"
+        "card4 card4 card4"
+
+        ;
+    }
+    
+    .card1{
+        grid-area: card1;
+
+    }
+
+    .card2{
+        grid-area: card2;
+    }
+
+    .card3{
+        grid-area: card3;
+    }
+
+    .card4{
+        grid-area: card4;
+    }
+
+    .cards {
+        width:200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon-menu img{
+        display: none;
+    }
+
+    .boton-checkbox{
+        display: none;
+    }
+}
+
+/* MEDIA QUERY MOBILE - TIENDA*/
+
+@media screen and (max-width:800px) {
+    .section-cards {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px;
+        gap: 30px;
+        justify-content: space-evenly;
+        
+        grid-template-areas: 
+
+        "card1 card2"
+        "card3 card4"
+
+        ;
+    }
+
+    .titulo-lrmodel{
+        margin-top: 10px;
+    }
+
+    .login{
+        @include flex;
+    }
+
+
+    .icon-menu img{
+        display: flex;
+        position: absolute;
+        right: 1rem;
+        top: 0.5rem;
+        width: 40px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .img-bars{
+        max-width: 100%;
+    }
+
+
+    .fondo-index img {
+        margin-top: 0px;
+        transform: translateY(-20px);
+    }
+
+    .boton-checkbox{
+        display: none;
+    }
+    .main-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.3s;
+        // transform: translateY(-100%);
+        z-index: 100;
+    }
+
+    // .nav-menu{
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     transition: transform 0.3s;
+    //     transform: translateY(-100%);
+    //     z-index: 101;
+    // }
+
+    .boton-checkbox:checked + .main-menu{
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .section-cards {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px;
+        grid-template-rows: 312px;
+        gap: 30px;
+        justify-content: space-evenly;
+        
+        grid-template-areas: 
+
+        "card1"
+        "card2" 
+        "card3"
+        "card4"
+
+        ;
+    }
+}
