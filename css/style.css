@@ -242,16 +242,14 @@ iframe {
   text-align: center;
   background: #fad353; }
 
-.terminos {
+.terminos, .yaTengoCuenta a {
   color: #ffffff;
   margin-bottom: 7px; }
-  .terminos a {
+  .terminos a, .yaTengoCuenta a a {
     color: #a0e4ff; }
 
 .yaTengoCuenta {
   margin-bottom: 15px; }
-  .yaTengoCuenta a {
-    color: #a0e4ff; }
 
 /* SECCION NOSOTROS | IMAGEN DE FONDO  */
 .container-footer {

@@ -70,7 +70,7 @@ a{
 .yaTengoCuenta{
     margin-bottom: 15px;
 a{
-    color: rgb(160, 228, 255);
+    @extend .terminos
 }
 }
 
