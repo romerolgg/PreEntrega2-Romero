@@ -1,9 +1,8 @@
-![](https://i.postimg.cc/brPH6rs4/LR-Model-transparente.png)
+<p align="center"><img width="300px" src="https://i.postimg.cc/brPH6rs4/LR-Model-transparente.png" alt="logo-page"></p>
 
 ------------
 # LR MODEL
 
-------------
 
 ## Repositorio
 Proyecto final | Pre-entrega N°3. Plataforma CoderHouse.
